@@ -2,7 +2,6 @@ import streamlit as st # 6740034022 PA4
 import pandas as pd
 import json
 import google.generativeai as genai
-import os
 
 st.set_page_config(
     page_title="Lyrics Analyzer & Song Recommender",

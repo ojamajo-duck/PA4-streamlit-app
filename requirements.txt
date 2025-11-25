@@ -2,4 +2,3 @@ streamlit
 pandas
 json
 google-generative-ai
-os
