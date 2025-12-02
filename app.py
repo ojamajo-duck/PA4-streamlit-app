@@ -30,11 +30,11 @@ with st.sidebar:
         placeholder="Enter your API key here",
     )
     st.write(" ⋆｡°✩₊ °✦ ‧  ‧ ₊ ˚✧₊ °✦⋆｡°✩₊ ‧  ‧ ₊ ˚✧₊ ")
-    st.space('medium')
-    st.write("The purpose of this streamlit app is to perform NLP tasks using an LLM.")
-    st.write("This app uses an AI model Gemini-2.5-flash-lite from Google Generative AI.")
-    st.write("Please do not enter any sensitive information.")
-    st.write("The AI-generated content may contain inaccuracies; your discretion is advised.")
+    st.space('small')
+    st.caption("The purpose of this streamlit app is to perform NLP tasks using an LLM.")
+    st.caption("This app uses an AI model Gemini-2.5-flash-lite from Google Generative AI.")
+    st.caption("Please do not enter any sensitive information.")
+    st.caption("The AI-generated content may contain inaccuracies; your discretion is advised.")
 
 left, right = st.columns(2)
 with left:
